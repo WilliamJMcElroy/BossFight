@@ -52,6 +52,9 @@ function bossLevelUp() {
     boss.damage = 5
     let bossElem = document.getElementById('boss')
     bossElem.innerText = `${boss.name}  |  ${boss.health}  |  ${boss.damage}  |  ${boss.level}`
+
+
+
 }
 
 setInterval(attackBoss, 1500)
